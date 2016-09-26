@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+	<head>
+		<title>SciDash Results Table Mockup</title>
+		<style>
+			body {
+				font-family: Courier, "Helvetica Neue", sans-serif;
+				font-size: 10pt;
+			}
+
+			#title {
+				font-family: Georgia;
+				font-size: 14pt;
+				margin-bottom: 10px;
+				background-color: #EEE;
+				padding: 5px;
+				display: inline-block;
+			}
+
+			#suite-name {
+				color: blue;
+				text-decoration: underline;
+			}
+
+			#repo-name {
+				color: blue;
+				text-decoration: underline;
+			}
+
+			td {
+				border: 0px;
+				background-color: #55AA00;
+			}
+
+			#results {
+				border: 0px;
+			}
+
+			#model-head {
+				border: 0px;
+				border-bottom: 1px solid #CCC;
+				text-align: left;
+			}
+
+			#author-head {
+				border: 0px;
+				border-bottom: 1px solid #CCC;
+				text-align: left;
+			}
+
+			.model {
+				min-width: 100px;
+				border: 0px;
+				background-color: white;
+			}
+
+			.model a {
+				color: blue;
+				text-decoration: underline;
+			}
+
+			.author {
+				border: 0px;
+				padding-right: 10px;
+				background-color: white;
+			}
+
+			.author a {
+				color: blue;
+				text-decoration: underline;
+			}
+
+			.test {
+				background-color: white;
+				min-width: 50px;
+				text-align: left;
+				padding-left: 5px;
+				padding-right: 5px;
+				border: 0px;
+				border-bottom: 1px solid #CCC;
+			}
+
+			.test a {
+				color: blue;
+				text-decoration: underline;
+			}
+
+			#sort-arrow {
+				color: #444;
+				font-size: 8pt;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="title">Results for suite <a id="suite-name">Single Neuron Suite B</a> in repository <a id="repo-name">neuronunit</a></div>
+		<table id="results" border="1">
+			<thead>
+				<tr>
+					<th id="model-head">Model</th>
+					<th id="author-head">Submitter(s)</th>
+					<th class="test"><a>Overall</a> <span id="sort-arrow">&#9660;</span></th>
+					<th class="test"><a>SC</a></th>
+					<th class="test"><a>SL</a></th>
+					<th class="test"><a>SV</a></th>
+					<th class="test"><a>ISI</a></th>
+					<th class="test"><a>IMI</a></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="model"><a>ARX</a></td>
+					<td class="author"><a>Shinomoto</a>, <a>Kobayashi</a></td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+				</tr>
+				<tr>
+					<td class="model"><a>AdEx-1</a></td>
+					<td class="author"><a>Badel</a></td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+				</tr>
+				<tr>
+					<td class="model"><a>aSRM</a></td>
+					<td class="author"><a>Mensi</a></td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+				</tr>
+				<tr>
+					<td class="model"><a>LIF</a></td>
+					<td class="author"><a>Jolivet</a></td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>TODO</h3>
+		<ul id="todos">
+			<li>Reasonable looking numbers</li>
+			<li>Pastel Colors</li>
+			<li>Links to test results</li>
+			<li>Meta stuff ("notify me when it changes", comments)</li>
+		</ul>
+	</body>
+</html>
