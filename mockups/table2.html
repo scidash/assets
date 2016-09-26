@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+  <head>
+    <title>SciDash Results Table Mockup</title>
+    <style>
+      body {
+      font-family: Courier, "Helvetica Neue", sans-serif;
+      font-size: 10pt;
+      }
+
+      #title {
+      font-family: Georgia;
+      font-size: 14pt;
+      margin-bottom: 10px;
+      background-color: #EEE;
+      padding: 5px;
+      display: inline-block;
+      }
+
+      #notify {
+      font-family: Arial;
+      font-size: 9pt;
+      color: blue;
+      text-decoration: underline;
+      margin-left: 2.4in;
+      display: inline-block;
+      }
+
+      #suite-name {
+      color: blue;
+      text-decoration: underline;
+      }
+
+      #repo-name {
+      color: blue;
+      text-decoration: underline;
+      }
+
+      td {
+      border: 0px;
+      padding: 4px;
+      }
+
+      .result {
+      color: blue;
+      text-decoration: underline;
+      font-weight: bold;
+      text-align: center;
+      }
+
+      #results {
+      border: 0px;
+      }
+
+      #model-head {
+      border: 0px;
+      border-bottom: 1px solid #CCC;
+      text-align: left;
+      }
+
+      #author-head {
+      border: 0px;
+      border-bottom: 1px solid #CCC;
+      text-align: left;
+      }
+
+      .model {
+      min-width: 100px;
+      border: 0px;
+      background-color: white;
+      }
+
+      .model a {
+      color: blue;
+      text-decoration: underline;
+      }
+
+      .author {
+      border: 0px;
+      padding-right: 10px;
+      background-color: white;
+      }
+
+      .author a {
+      color: blue;
+      text-decoration: underline;
+      }
+
+      .test {
+      background-color: white;
+      min-width: 50px;
+      text-align: left;
+      padding-left: 5px;
+      padding-right: 5px;
+      border: 0px;
+      border-bottom: 1px solid #CCC;
+      }
+
+      .test a {
+      color: blue;
+      text-decoration: underline;
+      }
+
+      #sort-arrow {
+      color: #444;
+      font-size: 8pt;
+      }
+
+      .A {
+      background-color: #63be7b;
+      }
+
+      .Am {
+      background-color: #8fca7d;
+      }
+
+      .B {
+      background-color: #e8e482;
+      }
+
+      .C {
+      background-color: #fcb47a;
+      }
+
+      .D {
+      background-color: #f3c7c8
+      }
+
+      .NA {
+      background-color: #BBB;
+      }
+      </style>
+    </head>
+  <body>
+    <div id="title">Results for suite <a id="suite-name">Single Neuron Suite B</a></div>
+    <div id="notify">Notify me of updates</div>
+    <table id="results" border="1">
+      <thead>
+	<tr>
+	  <th id="model-head">Model</th>
+	  <th id="author-head">Submitter(s)</th>
+	  <th class="test"><a>Overall</a> <span id="sort-arrow">&#9660;</span></th>
+	  <th class="test"><a>SC</a></th>
+	  <th class="test"><a>SL</a></th>
+	  <th class="test"><a>SV</a></th>
+	  <th class="test"><a>ISI</a></th>
+	  <th class="test"><a>IMI</a></th>
+	  </tr>
+	</thead>
+      <tbody>
+	<tr>
+	  <td class="model"><a>ARX</a></td>
+	  <td class="author"><a>Shinomoto</a>, <a>Kobayashi</a></td>
+	  <td class="result A">.95</td>
+	  <td class="result Am">.91</td>
+	  <td class="result A">.96</td>
+	  <td class="result A">.95</td>
+	  <td class="result Am">.90</td>
+	  <td class="result A">.98</td>
+	  </tr>
+	<tr>
+	  <td class="model"><a>AdEx-1</a></td>
+	  <td class="author"><a>Badel</a></td>
+	  <td class="result Am">.91</td>
+	  <td class="result A">.95</td>
+	  <td class="result B">.86</td>
+	  <td class="result Am">.91</td>
+	  <td class="result Am">.92</td>
+	  <td class="result A">.94</td>
+	  </tr>
+	<tr>
+	  <td class="model"><a>aSRM</a></td>
+	  <td class="author"><a>Mensi</a></td>
+	  <td class="result C">.77</td>
+	  <td class="result B">.85</td>
+	  <td class="result A">.93</td>
+	  <td class="result C">.71</td>
+	  <td class="result B">.83</td>
+	  <td class="result D">.44</td>
+	  </tr>
+	<tr>
+	  <td class="model"><a>Point Process</a></td>
+	  <td class="author"><a>Kass</a></td>
+	  <td class="result D">.56</td>
+	  <td class="result B">.87</td>
+	  <td class="result C">.73</td>
+	  <td class="result NA">N/A</td>
+	  <td class="result C">.71</td>
+	  <td class="result D">.50</td>
+	  </tr>
+	</tbody>
+      </table>
+    <h3>No Comments. <a href="#">Add a comment</a>.</h3>
+    </body>
+</html>
+
