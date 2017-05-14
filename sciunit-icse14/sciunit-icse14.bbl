@@ -1,0 +1,57 @@
+\begin{thebibliography}{10}
+
+\bibitem{beck2003}
+K.~Beck.
+\newblock {\em Test Driven Development: By Example}.
+\newblock Addison Wesley, 2003.
+
+\bibitem{box1987empirical}
+G.~E. Box and N.~R. Draper.
+\newblock {\em Empirical model-building and response surfaces.}
+\newblock John Wiley \& Sons, 1987.
+
+\bibitem{howison2011scientific}
+J.~Howison and J.~Herbsleb.
+\newblock Scientific software production: incentives and collaboration.
+\newblock In {\em CSCW}, pages 513--522. ACM, 2011.
+
+\bibitem{jinha_article_2010}
+A.~E. Jinha.
+\newblock Article 50 million: an estimate of the number of scholarly articles
+  in existence.
+\newblock {\em Learned Publishing}, 23(3):258--263, July 2010.
+
+\bibitem{jolivet_quantitative_2008}
+R.~Jolivet, F.~Sch{\"u}rmann, T.~Berger, R.~Naud, W.~Gerstner, and A.~Roth.
+\newblock The quantitative single-neuron modeling competition.
+\newblock {\em Biological Cybernetics}, 99(4):417--426, Nov. 2008.
+
+\bibitem{kemerer2009impact}
+C.~F. Kemerer and M.~C. Paulk.
+\newblock The impact of design and code reviews on software quality: An
+  empirical study based on {PSP} data.
+\newblock {\em IEEE Transactions on Software Engineering}, 35(4):534--550,
+  2009.
+
+\bibitem{perez2007ipython}
+F.~Perez and B.~E. Granger.
+\newblock {IPython}: a system for interactive scientific computing.
+\newblock {\em Computing in Science \& Engineering}, 9(3):21--29, 2007.
+
+\bibitem{sanner1999python}
+M.~F. Sanner et~al.
+\newblock Python: a programming language for software integration and
+  development.
+\newblock {\em J Mol Graph Model}, 17(1):57--61, 1999.
+
+\bibitem{oai:open.ac.uk.OAI2:17673}
+J.~Segal.
+\newblock Models of scientific software development.
+\newblock In {\em SECSE}, May 2008.
+
+\bibitem{codereview}
+H.~Siy and L.~Votta.
+\newblock Does the modern code inspection have value?
+\newblock In {\em ICSM}, pages 281--289, 2001.
+
+\end{thebibliography}
